@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) 
+{
+
+:root
+{
+    --txt: hsl(0, 0%, 5%);
+    --bg: hsl(0, 0%, 95%);
+    --line: hsl(0, 0%, 30%);
+    --sapienza: #802433;
+    --hover: #ad1b33;
+}
+
+nav, #info, #courses, #ulinks
+{
+    display: none;
+}
+    
+#temp-mobile
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont
+{
+    width: 90%;
+    height: 20vw;
+    border: 1px solid var(--sapienza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#temp-mobile h1
+{
+    font-size: 20px;
+    color: var(--sapienza);
+    text-align: center;
+}
+}

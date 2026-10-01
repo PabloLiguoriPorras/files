@@ -1,0 +1,406 @@
+:root
+{
+    --txt: hsl(0, 0%, 5%);
+    --bg: hsl(0, 0%, 95%);
+    --line: hsl(0, 0%, 30%);
+    --sapienza: #802433;
+    --hover: #ad1b33;
+}
+
+*
+{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav
+{
+    height: 5vh;
+    width: 70%;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    background-color: var(--bg);
+}
+
+nav h1
+{
+    color: var(--txt);
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: left;
+    width: 80%;
+}
+
+nav h1 span
+{
+    color: var(--sapienza);
+}
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li a
+{
+    margin: 1vw;
+    text-decoration: none;
+    color: var(--txt);
+}
+
+nav li a:hover
+{
+    margin: 1vw;
+    text-decoration: none;
+    color: var(--sapienza);
+    transition: all ease-in-out 0.3s;
+}
+
+#info
+{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container 
+{
+    max-width: 800px;
+    text-align: center;
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.meta-badge 
+{
+    display: inline-flex;
+    align-items: center;
+    color: var(--sapienza);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.title
+{
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--txt);
+    margin: 0;
+}
+
+.title span
+{
+    color: var(--sapienza);
+}
+
+.subtitle 
+{
+    font-size: 1.25rem;
+    color: var(--txt);
+    line-height: 1.6;
+    max-width: 650px;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.info-pills 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.pill
+{
+    font-size: 18px;
+    color: var(--sapienza);
+    font-weight: 400;
+}
+
+#courses
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-container
+{
+    width: 60%;
+    height: 50%;
+}
+
+.c-title
+{
+    height: 10%;
+    width: 100%;
+    font-size: 35px;
+}
+
+.c-subtitle
+{
+    height: 10%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.c-separe
+{
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.box-container
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box
+{
+    border: 1px solid var(--txt);
+    width: 13vw;
+    height: 20vh;
+    padding: 1vh;
+}
+
+.box-title
+{
+    color: var(--sapienza);
+    font-size: 18px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.separe
+{
+    width: 80%;
+    height: 0.5px;
+    background-color: var(--line);
+}
+
+.box p
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.box a
+{
+    color: var(--sapienza);
+    text-decoration: none;
+    height: 20%;
+}
+
+.box a:hover
+{
+    color: var(--hover);
+}
+
+.box:hover
+{
+    transform: scale(1.1);
+    margin: 1vh;
+    transition: all ease-in-out 0.3s;
+}
+
+.box:not(:hover)
+{
+    transform: scale(1);
+    margin: 0;
+    transition: all ease-in-out 0.3s; 
+}
+
+#ulinks
+{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container
+{
+    width: 60%;
+    height: 50%;
+}
+
+.u-title
+{
+    height: 10%;
+    width: 100%;
+    font-size: 35px;
+}
+
+.u-subtitle
+{
+    height: 10%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.u-separe
+{
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.l-box-cont
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-box
+{
+    width: 14vw;
+    height: 16vw;
+    border: 1px solid var(--line);
+    margin: 1vh;
+}
+
+.couple .link-box
+{
+    width: 14vw;
+    height: 7.5vw;
+    border: 1px solid var(--line);
+    margin: 1vw;
+}
+
+.l-box-title
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.link-box ul 
+{
+    list-style: none;
+    margin-left: 1vh;
+}
+
+.link-box ul span
+{
+    color: var(--txt);
+}
+
+.link-box ul a 
+{
+    list-style: none;
+    text-align: left;
+    color: var(--sapienza);
+    text-decoration: none;
+}
+
+.link-box-a
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--sapienza);
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-box:hover
+{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.link-box:not(:hover)
+{
+    transform: scale(1);
+    margin: 1vw;
+    transition: all ease-in-out 0.3s;
+}
+
+.f-separe
+{
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.sign
+{
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign ul
+{
+    list-style: none;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#temp-mobile
+{
+    display: none;
+}
