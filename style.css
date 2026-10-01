@@ -26,8 +26,8 @@ body
 
 nav
 {
-    min-height: 5vh;
-    min-width: 70%;
+    height: 5vh;
+    width: 70%;
     border-bottom: 1px solid var(--line);
     display: flex;
     flex-direction: row;
@@ -79,8 +79,8 @@ nav li a:hover
 
 #info
 {
-    min-width: 100%;
-    min-height: 95vh;
+    width: 100%;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@ nav li a:hover
 
 .hero-container 
 {
-    min-width: 800px;
+    width: 800px;
     text-align: center;
     background: var(--card-bg);
     display: flex;
@@ -127,7 +127,7 @@ nav li a:hover
     font-size: 1.25rem;
     color: var(--txt);
     line-height: 1.6;
-    max-width: 650px;
+    width: 650px;
     margin-top: 1rem;
     text-align: left;
 }
@@ -149,8 +149,8 @@ nav li a:hover
 
 #courses
 {
-    min-width: 100%;
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,36 +158,36 @@ nav li a:hover
 
 .course-container
 {
-    min-width: 60%;
-    min-height: 50%;
+    width: 60%;
+    height: 50%;
 }
 
 .c-title
 {
-    min-height: 10%;
-    min-width: 100%;
+    height: 10%;
+    width: 100%;
     font-size: 35px;
 }
 
 .c-subtitle
 {
-    min-height: 10%;
-    min-width: 100%;
+    height: 10%;
+    width: 100%;
     font-size: 20px;
     font-weight: 500;
 }
 
 .c-separe
 {
-    min-width: 100%;
-    min-height: 1px;
+    width: 100%;
+    height: 1px;
     background-color: var(--line);
 }
 
 .box-container
 {
-    min-width: 100%;
-    min-height: 80%;
+    width: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -196,8 +196,8 @@ nav li a:hover
 .box
 {
     border: 1px solid var(--txt);
-    min-width: 13vw;
-    min-height: 20vh;
+    width: 13vw;
+    height: 20vh;
     padding: 1vh;
 }
 
@@ -205,22 +205,22 @@ nav li a:hover
 {
     color: var(--sapienza);
     font-size: 18px;
-    min-height: 20%;
+    height: 20%;
     display: flex;
     align-items: center;
 }
 
 .separe
 {
-    min-width: 80%;
-    min-height: 0.5px;
+    width: 80%;
+    height: 0.5px;
     background-color: var(--line);
 }
 
 .box p
 {
-    min-width: 100%;
-    min-height: 60%;
+    width: 100%;
+    height: 60%;
     display: flex;
     align-items: center;
 }
@@ -253,8 +253,8 @@ nav li a:hover
 
 #ulinks
 {
-    min-width: 100%;
-    min-height: 95vh;
+    width: 100%;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,36 +263,36 @@ nav li a:hover
 
 .links-container
 {
-    min-width: 60%;
-    min-height: 50%;
+    width: 60%;
+    height: 50%;
 }
 
 .u-title
 {
-    min-height: 10%;
-    min-width: 100%;
+    height: 10%;
+    width: 100%;
     font-size: 35px;
 }
 
 .u-subtitle
 {
-    min-height: 10%;
-    min-width: 100%;
+    height: 10%;
+    width: 100%;
     font-size: 20px;
     font-weight: 500;
 }
 
 .u-separe
 {
-    min-width: 100%;
-    min-height: 1px;
+    width: 100%;
+    height: 1px;
     background-color: var(--line);
 }
 
 .l-box-cont
 {
-    min-width: 100%;
-    min-height: 80%;
+    width: 100%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -301,24 +301,24 @@ nav li a:hover
 
 .link-box
 {
-    min-width: 14vw;
-    min-height: 16vw;
+    width: 14vw;
+    height: 16vw;
     border: 1px solid var(--line);
     margin: 1vh;
 }
 
 .couple .link-box
 {
-    min-width: 14vw;
-    min-height: 7.5vw;
+    width: 14vw;
+    height: 7.5vw;
     border: 1px solid var(--line);
     margin: 1vw;
 }
 
 .l-box-title
 {
-    min-width: 100%;
-    min-height: 20%;
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,8 +348,8 @@ nav li a:hover
 
 .link-box-a
 {
-    min-width: 100%;
-    min-height: 80%;
+    width: 100%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -373,15 +373,15 @@ nav li a:hover
 
 .f-separe
 {
-    min-width: 100%;
-    min-height: 1px;
+    width: 100%;
+    height: 1px;
     background-color: var(--line);
 }
 
 .sign
 {
-    min-width: 60%;
-    min-height: 5vh;
+    width: 60%;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,8 +391,8 @@ nav li a:hover
 .sign ul
 {
     list-style: none;
-    min-width: 90%;
-    min-height: 100%;
+    width: 90%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
