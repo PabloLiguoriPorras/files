@@ -158,56 +158,67 @@ nav li a:hover
 
 .course-container
 {
-    width: 60%;
+    width: 100%;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-title
 {
     height: 10%;
-    width: 100%;
+    width: 80%;
     font-size: 35px;
 }
 
 .c-subtitle
 {
     height: 10%;
-    width: 100%;
+    width: 80%;
     font-size: 20px;
     font-weight: 500;
 }
 
 .c-separe
 {
-    width: 100%;
+    width: 80%;
     height: 1px;
     background-color: var(--line);
 }
 
 .box-container
 {
-    width: 100%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .box
 {
     border: 1px solid var(--txt);
-    width: 13vw;
-    height: 20vh;
-    padding: 1vh;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 15rem;
+    flex: 1 0 auto;
 }
 
 .box-title
 {
     color: var(--sapienza);
     font-size: 18px;
-    height: 20%;
-    display: flex;
-    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .separe
@@ -219,17 +230,16 @@ nav li a:hover
 
 .box p
 {
-    width: 100%;
-    height: 60%;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
 }
 
 .box a
 {
+    padding: 0.5rem;
     color: var(--sapienza);
     text-decoration: none;
-    min-height: 20%;
 }
 
 .box a:hover
@@ -263,28 +273,32 @@ nav li a:hover
 
 .links-container
 {
-    width: 60%;
+    width: 80%;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .u-title
 {
     height: 10%;
-    width: 100%;
+    width: 80%;
     font-size: 35px;
 }
 
 .u-subtitle
 {
     height: 10%;
-    width: 100%;
+    width: 80%;
     font-size: 20px;
     font-weight: 500;
 }
 
 .u-separe
 {
-    width: 100%;
+    width: 80%;
     height: 1px;
     background-color: var(--line);
 }
@@ -292,39 +306,32 @@ nav li a:hover
 .l-box-cont
 {
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .link-box
 {
-    width: 14vw;
-    height: 16vw;
     border: 1px solid var(--line);
-    margin: 1vh;
-}
-
-.couple .link-box
-{
-    width: 14vw;
-    height: 7.5vw;
-    border: 1px solid var(--line);
-    margin: 1vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
 }
 
 .l-box-title
 {
     width: 100%;
-    height: 20%;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
     text-align: center;
-    
+    font-size: 20px;
 }
 
 .link-box ul 
@@ -361,6 +368,7 @@ nav li a:hover
 .link-box:hover
 {
     transform: scale(1.1);
+    margin: 2vw;
     transition: all ease-in-out 0.3s;
 }
 
